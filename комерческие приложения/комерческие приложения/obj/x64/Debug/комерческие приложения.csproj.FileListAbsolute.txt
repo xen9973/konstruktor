@@ -1,0 +1,10 @@
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\bin\x64\Debug\комерческие приложения.exe.config
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\bin\x64\Debug\комерческие приложения.exe
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\bin\x64\Debug\комерческие приложения.pdb
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\obj\x64\Debug\комерческие приложения.csproj.AssemblyReference.cache
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\obj\x64\Debug\комерческие_приложения.Form1.resources
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\obj\x64\Debug\комерческие_приложения.Properties.Resources.resources
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\obj\x64\Debug\комерческие приложения.csproj.GenerateResource.cache
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\obj\x64\Debug\комерческие приложения.csproj.CoreCompileInputs.cache
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\obj\x64\Debug\комерческие приложения.exe
+C:\Users\kolya\Desktop\комерческие приложения\комерческие приложения\obj\x64\Debug\комерческие приложения.pdb
