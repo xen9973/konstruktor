@@ -5,8 +5,111 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ui.MWM.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="500" d:DesignWidth="800">
     <StackPanel>
-        
+        <TextBlock Text="фигураак"
+                   Foreground="White"
+                   FontSize="28"
+                   HorizontalAlignment="Left"
+                   Margin="0,0,0,20"/>
+
+        <StackPanel Orientation="Horizontal">
+            <Border Width="400"
+                    Height="200">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
+                        <GradientStop Color="#3aa0ff" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <Border.Clip>
+                    <RectangleGeometry RadiusX="10"
+                                       RadiusY="10"
+                                       Rect="0,0,400,200"/>
+                </Border.Clip>
+                <Grid>
+                    <StackPanel>
+                        <TextBlock Text="gfh"
+                                   Foreground="White"
+                                   FontSize="20"
+                                   HorizontalAlignment="left"
+                                   Margin="20"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            
+            <Border Width="200"
+                    Height="200"
+                    Margin="40"
+                    CornerRadius="10">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="Yellow" Offset="0.0"/>
+                        <GradientStop Color="Orange" Offset="0.4"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            </Border>
+            
+        </StackPanel>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="Margin" Value="15,0,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text="кубики"
+                    Foreground="White"
+                    FontSize="20"
+                    />
+            <StackPanel Orientation="Horizontal">
+                <Border Width="135"
+                        Height="135"
+                        CornerRadius="10">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="#844eff" Offset="0.0"/>
+                            <GradientStop Color="#844e" Offset="0.6"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+
+                <Border Width="135"
+                        Height="135"
+                        CornerRadius="10">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="#4e99ff" Offset="0.0"/>
+                            <GradientStop Color="#4e9" Offset="0.6"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+
+                <Border Width="135"
+                        Height="135"
+                        CornerRadius="10">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="#4eff91" Offset="0.0"/>
+                            <GradientStop Color="#eccf4e" Offset="0.6"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                </Border>
+
+                <Border Width="135"
+                        Height="135"
+                        CornerRadius="10">
+                    
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="#eccf4e" Offset="0.0"/>
+                            <GradientStop Color="#eccf" Offset="0.6"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                </Border>
+               
+            </StackPanel>
+            
+        </StackPanel>
     </StackPanel>
 </UserControl>
